@@ -1,0 +1,130 @@
+/*  Estilos CSS  */
+
+/*  Inicializacion  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ /* #carouselExampleControls img{
+  filter: brightness(50%);
+}
+
+#cards {
+  margin-bottom: 40px;
+}
+
+#container-oradores {
+  margin-top: 20px;
+  width: 50%;
+} */
+
+/* Color del fondo de los botones de la barra de navegacion */
+.btn-outline:hover {
+  background-color: #1eb535;
+  color: #fff; 
+}
+
+.btn-forms {
+  background-color: #208237;
+  color: #fff; 
+}
+
+/* Desactivo el subrayado */
+.txt-verde {
+  color: #1eba43 !important;
+}
+
+.txt {
+  text-decoration: none;
+}
+
+/* Activo el subrayado y cambio el color */
+.txt-outline:hover {
+  color: #28a745 !important;
+  text-decoration: underline;
+  text-decoration-color: #28a745;
+}
+
+/* Ampliar al 100 */
+.footer {
+  width: 100vw;
+}
+
+/* Boton flotante (ir arriba) */
+.cmn-divfloat {
+  position: fixed !important;
+  bottom: 45px;
+  right: 15px;
+  display: none;
+}
+
+/* Boton flotante curvatura de las puntas */
+.cmn-btncircle {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* si se redimensiona el text area */
+.txt-area {
+  resize: none;
+}
+
+/* Tamaño de la fuente del titulo del formulario */
+.titulo-formulario {
+  font-size: 1.85rem;
+}
+
+/* Tamaño de la fuente del subtitulo del formulario */
+.subtitulo-formulario {
+  font-size: 1.35rem;
+}
+
+
+/* 
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+} */
+
+/*
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+*/
+
+/* .carousel-caption {
+  position: absolute; 
+  right: 15%;
+  top: 125px; Cambiar bottom por top y los píxeles que necesites
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); Añadir para conseguir el fondo con opacidad
+}
+*/
