@@ -1,0 +1,29 @@
+CREATE DATABASE integrador_cac;
+
+USE integrador_cac;
+
+CREATE TABLE orators (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  last_name VARCHAR(255),
+  email VARCHAR(150),
+  title  VARCHAR(150),
+  topic VARCHAR(255),
+  saved_date DATE, 
+  modification_date DATE
+);
+
+SELECT * FROM orators;
+
+
+
+-- LOGIN
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user VARCHAR(50) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    fecha_alta DATE 
+);
+
+INSERT INTO users (user, pass) VALUES ('admin', 'admin');
+SELECT * FROM users;
