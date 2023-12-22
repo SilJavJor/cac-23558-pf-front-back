@@ -83,7 +83,15 @@
                 <button class="btn btn-outline text-white mx-1 pl-1 pr-1"
                   onclick="window.location.href='#comprar'">Comprar</button>
                 <button class="btn btn-outline text-white mx-1 pl-1 pr-1"
-                  onclick="window.location.href='#contacto'">Contactanos</button>
+                  onclick="window.location.href='#contacto'">Contactanos</button
+                
+                <div class="d-flex flex-column align-items-start">
+                  <a href="https://github.com/SilJavJor/java-front-end-js-2023-2" target="_blank" class="txt-verde text-white mx-2"
+                    style="display: block;">Repositorio</a>
+                </div>
+
+                <a href="https://github.com/SilJavJor/java-front-end-js-2023-2" target="_blank" class="txt-verde text-white mx-2"
+                style="display: block;">Repositorio</a>
       
                 <!-- Redes sociales -->
                 <a href="https://www.instagram.com/" target="_blank" class="text-white mx-2 pl-1 pr-1"><img
@@ -733,7 +741,7 @@
 
                 <div class="p-3 mb-2 bg-primary bg-gradient fw-bold text-center text-white titulo-formulario">Conviertete en Orador</div>
 
-                <form id="frm-conviertete" action="" class="row g-3 needs-validation" novalidate>
+                <form id="frm-conviertete" action="regiterOrator" method="post" class=" row g-3 needs-validation" novalidate>
 
                     <div class="col-md-12">
                       <div class="p-3 mb-2 fw-bold text-center text-opacity-85 subtitulo-formulario">
@@ -743,36 +751,36 @@
                     
                     <div class="col-md-6">
                         <label for="nombreId" class="form-label">Nombre *</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su nombre..." aria-label="Nombre" id="nombreId" required>
+                        <input type="text" class="form-control" placeholder="Ingrese su nombre..." aria-label="Nombre" id="nombre" required>
                   
                         <div class="invalid-feedback">Debe completar su nombre...</div>
                     </div>
                   
                     <div class="col-md-6">
                         <label for="apellidoId" class="form-label">Apellido *</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su apellido..." aria-label="Nombre" id="apellidoId" required>
+                        <input type="text" class="form-control" placeholder="Ingrese su apellido..." aria-label="Apellido" id="apellido" required>
                       
                         <div class="invalid-feedback">Debe completar su apellido...</div>
                     </div>
                   
                     <div class="col-md-6">
                         <label for="tituloId" class="form-label">Titulo *</label>
-                        <input type="text" class="form-control" placeholder="Ingrese el asunto..." aria-label="Nombre" id="tituloId" required>
+                        <input type="text" class="form-control" placeholder="Ingrese el asunto..." aria-label="Titulo" id="titulo" required>
               
                         <div class="invalid-feedback">Debe completar el titulo de la charla...</div>
                     </div>
               
                     <div class="col-md-6">
                         <label for="emailId" class="form-label">E-mail *</label>
-                        <input type="email" class="form-control" placeholder="Ingrese su e-mail..." aria-label="e-mail" id="emailId" required>
+                        <input type="email" class="form-control" placeholder="Ingrese su e-mail..." aria-label="E-mail" id="email" required>
               
-                        <div class="invalid-feedback">Debe completar su e-mai y tambien debe ser valido...</div>
+                        <div class="invalid-feedback">Debe completar su e-mai y debe ser valido...</div>
                     </div>
               
                     <div class="col-md-12">
                       <label for="charlaId" class="form-label">Tema de la charla *</label>
                       <textarea class="form-control txt-area" placeholder="Ingrese el el tema sobre el cual va a charlar (maximo 150 caracteres)..."
-                        aria-label="mensajeid" id="mensajeid" minlength="1" maxlength="150" rows="5" cols="auto" required></textarea>
+                        aria-label="mensajeid" id="tema" minlength="1" maxlength="150" rows="5" cols="auto" required></textarea>
               
                       <div class="invalid-feedback">Debe completar el tema de la charla...</div>
                     </div>                    
@@ -780,7 +788,7 @@
                     <div class="col-md-12">
                       <div class="form-check">
                         <label for="terminosid" class="form-check-label">Acepto los terminos y condiciones *</label>
-                        <input type="checkbox" class="form-check-input" id="terminosid" required>
+                        <input type="checkbox" class="form-check-input" id="terminos" required>
                                       
                         <div class="invalid-feedback">Es necesario aceptar los terminos y la condiciones...</div>
                       </div>
@@ -796,7 +804,7 @@
                       </div>    
 
                       <div class="d-grid gap-2 col-3 mx-auto">
-                        <button class="btn btn-forms btn-outline fw-bold" type="submit">Enviar</button>
+                          <button class="btn btn-forms btn-outline btn-lg fw-bold" type="submit" id="btnenviar" value="enviar">Enviar</button>
                       </div>    
                     </div>
 
