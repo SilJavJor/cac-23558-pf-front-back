@@ -3,7 +3,6 @@ package models;
 
 import java.util.Date;
 
-
 public class Orator {
     
     private int id;

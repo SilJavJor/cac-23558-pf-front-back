@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import models.Orator;
 
-
 @WebServlet("/registeeOrator")
 public class RegisterOrator extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)

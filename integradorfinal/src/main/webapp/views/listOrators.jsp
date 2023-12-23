@@ -63,6 +63,7 @@
                     %>
                 </tbody>
             </table>
+            
             <!-- Botón para volver al índice -->
             <a href="../" class="btn btn-success">Volver</a>   
         </div>
