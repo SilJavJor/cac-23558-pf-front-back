@@ -65,7 +65,15 @@
             </table>
             
             <!-- Botón para volver al índice -->
-            <a href="../" class="btn btn-success">Volver</a>   
+            <a href="../" class="btn btn-success">Volver</a> 
+            
+            <div class="row mt-auto">
+              <div class="d-grid gap-2 col-4 mx-auto">
+                <a href="../" class="btn btn-success btn-outlin mt-4 mb-4">Volver</a> 
+                <a href="../" class="btn btn-sucess btn-lg fw-bold mt-4 mb-4">Volver</a>
+              </div>
+            </div>
+            
         </div>
     </body>
 </html>
